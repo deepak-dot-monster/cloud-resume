@@ -28,6 +28,12 @@ Resources:
       DistributionConfig:
         Enabled: true
         DefaultRootObject: index.html
+        Aliases:
+          - deepak.monster
+        ViewerCertificate:
+          AcmCertificateArn: arn:aws:acm:us-east-1:927026870927:certificate/eab972aa-1d5a-41f7-8540-4e5d5c28aa20
+          SslSupportMethod: sni-only
+          MinimumProtocolVersion: TLSv1.2_2021
         Origins:
           - Id: S3Origin
             DomainName: !GetAtt WebsiteBucket.RegionalDomainName
