@@ -2,19 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Deepak - Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepak — Cloud & Data Professional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Deepak</h1>
-    <p>Cloud & Data Professional | Hyderabad, India</p>
-    <hr>
-    <p>This is a placeholder resume page. Deployment Successful!!</p>
-  </div>
 
-  <footer>
-    <p>Visitor count: <span id="visitor-count">Loading...</span></p>
+  <div class="grid-bg"></div>
+
+  <header class="sheet-header">
+    <span class="tag">DOC. 01 — RESUME</span>
+    <span class="tag">REV. 2026.08</span>
+  </header>
+
+  <main class="sheet">
+
+    <section class="title-block">
+      <h1>Deepak</h1>
+      <p class="role">Cloud &amp; Data Professional</p>
+      <p class="location">// Hyderabad, India</p>
+    </section>
+
+    <section class="panel">
+      <h2><span class="num">01</span> About</h2>
+      <p>
+        B.Tech CSE graduate building toward cloud engineering — hands-on with AWS,
+        Python, and data tooling, with a track record of shipping working systems
+        rather than just studying them.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2><span class="num">02</span> Core Stack</h2>
+      <ul class="stack-list">
+        <li>AWS <span class="dim">(Lambda, S3, CloudFront, DynamoDB, IAM)</span></li>
+        <li>Python <span class="dim">/ SQL</span></li>
+        <li>Power BI <span class="dim">/ Tableau</span></li>
+        <li>CloudFormation <span class="dim">(IaC)</span></li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2><span class="num">03</span> Contact</h2>
+      <p class="mono">email@example.com</p>
+      <p class="mono">github.com/deepak-dot-monster</p>
+    </section>
+
+  </main>
+
+  <footer class="telemetry">
+    <div class="telemetry-row">
+      <span class="dot"></span>
+      <span class="label">SYSTEM.STATUS</span>
+      <span class="value">ONLINE</span>
+    </div>
+    <div class="telemetry-row">
+      <span class="label">VISITOR.COUNT</span>
+      <span class="value" id="visitor-count">— — —</span>
+    </div>
   </footer>
 
   <script src="script.js"></script>
