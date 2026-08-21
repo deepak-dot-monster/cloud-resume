@@ -226,5 +226,5 @@ Building this surfaced several real-world debugging scenarios:
 
 
 
-\*\*Deepak\*\* — \[GitHub](https://github.com/deepak-dot-monster) · \[deepak.monster](https://deepak.monster)
+**Deepak **— \[GitHub](https://github.com/deepak-dot-monster) · \[deepak.monster](https://deepak.monster)
 
