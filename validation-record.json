@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "_659ed186a58965f01c6f743080a27232.deepak.monster.",
+        "Type": "CNAME",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "_d0846d9ec3900a647bb3718d3293ee90.jkddzztszm.acm-validations.aws."
+          }
+        ]
+      }
+    }
+  ]
+}
